@@ -1,5 +1,5 @@
-title: Juniper BGP Missing MD5
-id: a7c0ae48-8df8-42bf-91bd-2ea57e2f9d43
+title: Test change folder
+id: a7c0ae48-8df8-42bf-91bd-change_folder
 status: experimental
 description: Detects juniper BGP missing MD5 digest. Which may be indicative of brute force attacks to manipulate routing.
 references:
@@ -25,7 +25,7 @@ detection:
     keywords_bgp_juniper:
         '|all':
             - ':179' # Protocol
-            - 'missing MD5 digest'
+            - 'missing MD5 digest123'
     condition: keywords_bgp_juniper
 fields:
     - host
