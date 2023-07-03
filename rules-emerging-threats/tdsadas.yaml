@@ -19,8 +19,8 @@ logsource:
 detection:
     selection_1:
         Image|endswith:
-            - '/nc'
-            - '/netcat2312312'
+            - '/nc123123'
+            - '/netcat2312312312312'
     selection_2:
         Image|endswith:
             - '/nmap'
