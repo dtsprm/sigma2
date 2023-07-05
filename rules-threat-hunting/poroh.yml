@@ -4,7 +4,7 @@ status: stable
 description: Detects suspicious Django web application framework exceptions that could
   indicate exploitation attempts
 references:
-- https://docs.djangoproject.com/en/1.11/ref/exceptions/
+- https://docs.djangoproject.com/en/1.11/ref/exceptions/212
 - https://docs.djangoproject.com/en/1.11/topics/logging/#django-security
 author: Thomas Patzke
 date: 2017/08/05
