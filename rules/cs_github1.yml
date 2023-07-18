@@ -1,5 +1,5 @@
 title: Test cs create github 1
-id: 84bae5d4-b518-4ae0-b331-cs_github_test1
+id: cb337c90-fad0-47a9-8985-25b5e2e6b0c7
 status: test
 description: Detects enumeration of local or remote network services.
 references:
