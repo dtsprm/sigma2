@@ -20,7 +20,7 @@ detection:
     selection_1:
         Image|endswith:
             - '/nc'
-            - '/netcat3123213'
+            - '/netcat312321123213213213'
     selection_2:
         Image|endswith:
             - '/nmap'
