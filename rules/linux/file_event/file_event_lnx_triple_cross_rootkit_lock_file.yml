@@ -15,6 +15,7 @@ logsource:
 detection:
     selection:
         TargetFilename: '/tmp/rootlog'
+        CommandLine: beanks
     condition: selection
 falsepositives:
     - Unlikely
