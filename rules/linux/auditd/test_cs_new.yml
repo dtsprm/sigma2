@@ -1,5 +1,5 @@
-title: Dimitri test sigma
-id: bb7f2df3-3133-47cc-a808-eba763324252
+title: Somecase test 
+id: 9854ff51-1242-4c6b-821b-61a34a9faa7d
 status: test
 description: |
   Detects attempts to collect data stored in the clipboard from users with the usage of xclip tool.
