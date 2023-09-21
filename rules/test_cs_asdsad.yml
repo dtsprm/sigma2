@@ -1,7 +1,7 @@
 title: Test Another Sigma creating
 id: 4dbdddae-83d0-4c51-a0fa-650313a3076d
-status: test
-description: change
+status: stable
+description: change 2
 references:
     - https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1027.001/T1027.001.md
     - https://linux.die.net/man/1/truncate
