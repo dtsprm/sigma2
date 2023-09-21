@@ -6,7 +6,7 @@ references:
     - https://github.com/redcanaryco/atomic-red-team/blob/f339e7da7d05f6057fdfcdd3742bfcf365fee2a9/atomics/T1027.001/T1027.001.md
     - https://linux.die.net/man/1/truncate
     - https://linux.die.net/man/1/dd
-author: 'Igor Fits, Mikhail Larin, oscd.community'
+author: 'Igor Fits, Mikhail Larin'
 date: 2020/10/19
 modified: 2023/02/17
 tags:
