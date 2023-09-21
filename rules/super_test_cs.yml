@@ -1,6 +1,6 @@
 title: Test cs create github 7
 id: CB337C90-FAD0-47A9-8985-25B5E2E6BC11
-status: test
+status: deprecated
 description: Detects enumeration of local or remote network services.
 references:
     - test1.ru
