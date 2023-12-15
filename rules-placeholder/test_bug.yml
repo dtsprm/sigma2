@@ -1,0 +1,23 @@
+title: test bug sync
+id: ee24f1a9-4305-4a4c-a842-69d499151964
+status: stable
+description: test sync bug 
+references:
+    - https://www.nextron-systems.com/?s=antivirus
+author: DT
+date: 2018/09/09
+modified: 2023/01/13
+tags:
+    - attack.execution
+    - attack.t1203
+    - attack.command_and_control
+    - attack.t1219
+logsource:
+    category: antivirus
+detection:
+    selection:
+      Image: 'a'
+    condition: selection
+falsepositives:
+    - Unlikely
+level: critical
