@@ -1,0 +1,24 @@
+title: Using AppVLP to circumvent the ASR file path rule
+status: experimental
+description: Application Virtualization Utility is included with Microsoft Office.We are able to abuse "AppVLP" to execute shell commands. Normally, this binary is used for Application Virtualization, but we can use it as an abuse binary to circumvent the ASR file path rule folder or to mark a file as a system file
+author: Sreeman
+date: 2020/03/13
+detection:
+  selection:
+    CommandLine|re: '.*appvlp.exe.*(cmd.exe|powershell.exe).*(.sh|.exe|.dll|.bin|.bat|.cmd|.js|.msh|.reg|.scr|.ps|.vb|.jar|.pl|.inf).*'
+  condition: selection
+falsepositives:
+- Unknown
+fields:
+- ParentProcess
+- CommandLine
+- ParentCommandLine
+level: medium
+logsource:
+  product: Windows
+  category: process_creation
+tags:
+- attack.T1218
+- attack.defense_evasion
+- attack.execution
+id: 8d668138-eb24-4ed0-9e84-6b35fa965af9
