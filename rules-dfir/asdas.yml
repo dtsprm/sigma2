@@ -4,9 +4,9 @@ description: Application Virtualization Utility is included with Microsoft Offic
 author: Sreeman
 date: 2020/03/13
 detection:
-  selection:
+  selection1:
     CommandLine|re: '.*appvlp.exe.*(cmd.exe|powershell.exe).*(.sh|.exe|.dll|.bin|.bat|.cmd|.js|.msh|.reg|.scr|.ps|.vb|.jar|.pl|.inf).*'
-  condition: selection
+  condition: selection1
 falsepositives:
 - Unknown
 fields:
