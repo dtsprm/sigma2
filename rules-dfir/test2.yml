@@ -20,7 +20,7 @@ detection:
             - '/netcat'
     selection_2:
         Image|endswith:
-            - '/nmap'
+            - '/n'
             - '/tel'
     filter:
         CommandLine|contains|all: 'l'
