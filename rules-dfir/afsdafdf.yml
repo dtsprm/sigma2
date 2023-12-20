@@ -1,0 +1,30 @@
+title: Test rules dfir 2
+id: b6cd339d-21f8-49a2-b0c8-ebeabf1f301d
+status: test
+description: Detects enumeration of local or remote network services.
+references:
+    - test1.ru
+author: Dmytro Tarnopolskyi
+date: 2018/01/21
+modified: 2021/11/27
+tags:
+    - attack.discovery
+    - attack.t1046
+logsource:
+    category: process_creation
+    product: macos
+detection:
+    selection_1:
+        Image|endswith:
+            - '/nc'
+            - '/netcat'
+    selection_2:
+        Image|endswith:
+            - '/nmap'
+            - '/tel'
+    filter:
+        CommandLine|contains|all: 'l'
+    condition: (selection_1 and not filter) or selection_2
+falsepositives:
+    - Legitimate administration activities
+level: low
