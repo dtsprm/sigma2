@@ -14,7 +14,7 @@ tags:
     - attack.discovery
     - attack.t1046
 logsource:
-    category: process_creation
+    category: process_creation1
     product: macos
 detection:
     selection_1:
